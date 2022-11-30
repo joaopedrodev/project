@@ -1,0 +1,43 @@
+[
+	{
+		id: 1,
+		chrTimeline: 'Novo Negocio',
+		cards: [
+			{
+				id: 0,
+				fkLead: 0,
+				chrDescription: 0,
+				lead: {
+					chrName: 'Lucia',
+					chrEmail: '',
+					chrPhone: ''
+				}
+			}
+		]
+	},
+	{
+		id: 2,
+		chrTimeline: 'Avaliação Agendada',
+		cards: [
+
+		]
+	},
+	{
+		id: 3,
+		chrTimeline: 'outra Coisa',
+		cards: [
+			{
+				id: 1,
+				fkTimeline: 3,
+				position: 0,
+				fkLead: 0,
+				chrDescription: 0,
+				lead: {
+					chrName: 'Lucia',
+					chrEmail: '',
+					chrPhone: ''
+				}
+			}
+		]
+	}
+]

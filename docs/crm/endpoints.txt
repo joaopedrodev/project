@@ -1,0 +1,27 @@
+usar fk por exeplo fkDepartment
+GET crm/department
+
+
+GET crm/department/{id}
+GET crm/department/{id}/tree
+POST crm/department
+PUT crm/department/{id}
+DELETE crm/department/{id}
+
+
+GET /crm/lead/{departament}
+GET /crm/lead/{departament}/{id}
+POST /crm/lead/{departament}
+PUT /crm/lead/{departament}/{id}
+DELETE /crm/lead/{departament}/{id}
+
+GET /crm/timeline/{departament}
+GET /crm/timeline/{departament}/{id}
+POST /crm/timeline/{departament}
+PUT /crm/timeline/{departament}/{id}
+DELETE /crm/timeline/{departament}/{id}
+
+GET crm/card/{timeline} # listar todos
+GET crm/card/{timeline}/{id}
+POST crm/card/{timeline}
+PUT crm/card/{timeline}/{id}

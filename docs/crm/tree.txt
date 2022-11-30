@@ -1,0 +1,35 @@
+{
+	departaments: [
+		{
+			id: 0,
+			chrDepartament: 'Venda',
+			timelines: [
+				{
+					id: 0,
+					chrTimeline: 'Novo Negocio',
+					cards: [
+						{
+							id: 0,
+							fkLead: 0,
+							chrDescription: 0,
+							lead: {
+								chrName: 'Lucia',
+								chrEmail: '',
+								chrPhone: ''
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			id: 0,
+			chrDepartament: 'Angariação'
+		},
+		{
+			id: 0,
+			chrDepartament: 'Locação'
+		}
+	]
+
+}

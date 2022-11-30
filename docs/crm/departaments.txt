@@ -1,0 +1,17 @@
+{
+	departaments: [
+		{
+			id: 0,
+			chrDepartament: 'Venda'
+		},
+		{
+			id: 0,
+			chrDepartament: 'Angariação'
+		},
+		{
+			id: 0,
+			chrDepartament: 'Locação'
+		}
+	]
+
+}
